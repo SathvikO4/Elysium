@@ -18,14 +18,6 @@
 - **Storage**: Browser localStorage API
 - **Styling**: Custom CSS with SVG illustrations
 
-## 🏗️ App Structure
-flowchart TD
-    A[Landing Page] --> B[Register/Login]
-    B --> C[Dashboard]
-    C --> D[Self-Help Resources]
-    C --> E[For Others Resources]
-    D & E --> F[Detailed Guides]
-    F --> G[Emergency Contact]
 🛠️ Installation & Setup
 Quick Start:
 bash
@@ -41,6 +33,7 @@ No dependencies or build steps required
 Tested on Chrome, Firefox, and Edge
 
 📂 Folder Structure
+
 ![image](https://github.com/user-attachments/assets/5a93e594-026b-498c-a710-4fe0a4688c29)
 
 📸 Screenshots & Titles
