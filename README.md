@@ -52,7 +52,7 @@ Dashboard	03 - Personalized Hub	User dashboard with resource options
 Anxiety Guide	04 - Anxiety Toolkit	Coping strategies with professional contacts
 ![image](https://github.com/user-attachments/assets/880d14fd-a525-40b7-a63f-aef30a273fd9)
 ![image](https://github.com/user-attachments/assets/40698afc-f1fe-4ed5-97fb-87ebf6e74078)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/193276e6-6a4f-4f64-8c26-7e7ddc8f5f94)
 
 
 👨‍💻 Author
