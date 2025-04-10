@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Sanctuary | Elysium</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-content">
+                <h1>Elysium</h1>
+                <div class="user-greeting">
+                    <span id="welcomeUser">Welcome</span>
+                    <button id="logoutBtn" class="btn-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                            <polyline points="16 17 21 12 16 7"></polyline>
+                            <line x1="21" y1="12" x2="9" y2="12"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="header-wave"></div>
+        </header>
+
+        <main class="main-content">
+            <div class="welcome-card">
+                <h2>Find Your Peace</h2>
+                <p>Elysium is here to support your mental wellbeing journey. Choose the path that resonates with you today.</p>
+            </div>
+
+            <div class="option-cards">
+                <div class="option-card" onclick="location.href='self-help.html'">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#6c5ce7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>For Myself</h3>
+                    <p>Resources and guidance for your personal mental wellbeing</p>
+                    <div class="card-decoration"></div>
+                </div>
+
+                <div class="option-card" onclick="location.href='for-others.html'">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fd79a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>For Others</h3>
+                    <p>Learn how to support loved ones with mental health challenges</p>
+                    <div class="card-decoration"></div>
+                </div>
+            </div>
+
+            <div class="emergency-card">
+                <h3>Need Immediate Help?</h3>
+                <p>If you're in crisis, please contact emergency services or a crisis hotline.</p>
+                <button class="btn-emergency" onclick="location.href='tel:+18002738255'">
+                    Call Crisis Hotline
+                </button>
+            </div>
+        </main>
+    </div>
+    <script src="js/auth.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supporting Others | Elysium</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resources.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="header-content">
+                <h1><a href="home.html">Elysium</a></h1>
+                <div class="page-title">Supporting Others</div>
+            </div>
+            <div class="header-wave"></div>
+        </header>
+
+        <main class="resource-container">
+            <div class="resource-header">
+                <h2>How Can You Help?</h2>
+                <p>Learn how to support loved ones who may be struggling with mental health challenges</p>
+            </div>
+
+            <div class="resource-grid">
+                <div class="resource-card" onclick="showResource('recognizing')">
+                    <div class="card-bg recognize-bg"></div>
+                    <h3>Recognizing Signs</h3>
+                    <p>Identifying when someone needs help</p>
+                </div>
+
+                <div class="resource-card" onclick="showResource('communication')">
+                    <div class="card-bg communicate-bg"></div>
+                    <h3>Effective Communication</h3>
+                    <p>How to talk about mental health</p>
+                </div>
+
+                <div class="resource-card" onclick="showResource('crisis')">
+                    <div class="card-bg crisis-bg"></div>
+                    <h3>Crisis Support</h3>
+                    <p>Helping in emergency situations</p>
+                </div>
+
+                <div class="resource-card" onclick="showResource('boundaries')">
+                    <div class="card-bg boundaries-bg"></div>
+                    <h3>Healthy Boundaries</h3>
+                    <p>Supporting without burning out</p>
+                </div>
+
+                <div class="resource-card" onclick="showResource('resources')">
+                    <div class="card-bg resources-bg"></div>
+                    <h3>Finding Resources</h3>
+                    <p>Connecting to professional help</p>
+                </div>
+
+                <div class="resource-card" onclick="showResource('self-care')">
+                    <div class="card-bg selfcare-bg"></div>
+                    <h3>Caregiver Self-Care</h3>
+                    <p>Looking after your own wellbeing</p>
+                </div>
+            </div>
+
+            <div id="resourceDetail" class="resource-detail hidden">
+                <button class="back-btn" onclick="hideResource()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                    Back to topics
+                </button>
+                
+                <h2 id="detailTitle">Recognizing Signs</h2>
+                <div class="detail-content">
+                    <div class="detail-section">
+                        <h3>Understanding</h3>
+                        <p id="detailDescription">Recognizing when someone is struggling with their mental health is the first step in offering support. Changes in behavior, mood, or habits can be indicators.</p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>What to Look For</h3>
+                        <ul id="detailTips">
+                            <li>Withdrawal from social activities</li>
+                            <li>Significant changes in eating or sleeping patterns</li>
+                            <li>Uncharacteristic mood swings or irritability</li>
+                            <li>Difficulty concentrating or making decisions</li>
+                            <li>Expressions of hopelessness or worthlessness</li>
+                            <li>Increased use of alcohol or drugs</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="professional-help">
+                        <h3>Professional Support</h3>
+                        <p>If you're concerned about someone's mental health, consider consulting with:</p>
+                        <div class="professional-card">
+                            <span id="proName">Dr. Lisa Thompson</span>
+                            <a id="proPhone" href="tel:+15558765432" class="btn-call">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/resources.js"></script>
+</body>
+</html>
